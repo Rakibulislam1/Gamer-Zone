@@ -429,7 +429,8 @@ header {
     text-align: center;
     font-size: 1rem;
     font-weight: 600;
-    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .footer_container .footer_menus a {
@@ -478,14 +479,6 @@ header {
 }
 
 /* footer section end */
-
-
-
-
-
-
-
-
 
 
 /* hover effect */
