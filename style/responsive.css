@@ -62,8 +62,8 @@
         flex-direction: column;
         text-align: center;
         margin: 0 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+    
     }
 
     .play_instantly_text{
@@ -190,8 +190,7 @@
         flex-direction: column;
         text-align: center;
         margin: 0 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
     }
 
     .play_instantly_text{

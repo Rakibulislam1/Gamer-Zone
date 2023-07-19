@@ -290,6 +290,7 @@ header {
 .play_instantly_container {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     gap: 30px;
 }
 
@@ -309,6 +310,7 @@ header {
 .play_instantly_text {
     text-align: right;
     margin-right: 120px;
+    padding-right: 30px;
 }
 
 .play_instantly_text .Play_instantly_heading {
