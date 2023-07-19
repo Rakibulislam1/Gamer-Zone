@@ -449,6 +449,10 @@ header {
     color: #fff;
     margin-left: 15px;
     margin-right: 15px;
+    transition: all 0.9s;
+}
+.social_media_icon i:hover{
+    color: #FF42A5;
 }
 
 .terms_and_condition {
