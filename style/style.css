@@ -33,7 +33,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1140px;
+    max-width: 1240px;
     padding: 45px 0;
     margin: 0 auto;
 }
@@ -94,7 +94,7 @@ header {
 /* Banner section start */
 .banner_container {
     display: flex;
-    max-width: 1140px;
+    max-width: 1240px;
     margin: 0 auto;
     gap: 30px;
     align-items: center;
@@ -169,7 +169,7 @@ header {
 }
 
 .gamer_container {
-    max-width: 1140px;
+    max-width: 1240px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -235,7 +235,7 @@ header {
 
 /* Funny game section start */
 .funny_game_container {
-    max-width: 1140px;
+    max-width: 1240px;
     margin: 30px auto;
     text-align: center;
 }
@@ -283,7 +283,7 @@ header {
 
 /* Play instant section start */
 .play_instantly_section {
-    max-width: 1140px;
+    max-width: 1240px;
     margin: 80px auto;
 }
 
@@ -344,7 +344,7 @@ header {
 
 /* <!-- more game section start --> */
 .more_games_section {
-    max-width: 1140px;
+    max-width: 1240px;
     margin: 170px auto 0;
 }
 
@@ -400,7 +400,7 @@ header {
 }
 
 .footer_container {
-    max-width: 1140px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 
