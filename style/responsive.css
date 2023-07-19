@@ -2,6 +2,10 @@
 /* Tablet view start */
 @media screen and (max-width: 991.98px) {
     /* Header section start */
+    header{
+        background: none;
+        box-shadow: none;
+    }
     .nav_container {
         flex-direction: column;
     }
@@ -10,6 +14,12 @@
         margin-top: 30px;
     }
     /* Header section end */
+
+    /* banner section start */
+    .banner_container{
+        margin: 0 30px;
+    }
+    /* banner section end */
     
     
     /* Gamer section start */
@@ -108,6 +118,10 @@
 @media screen and (max-width: 575.98px) {
 
     /* Header section start */
+    header{
+        background: none;
+        box-shadow: none;
+    }
     .nav_container {
         flex-direction: column;
     }

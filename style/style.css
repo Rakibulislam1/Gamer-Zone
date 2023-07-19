@@ -14,10 +14,10 @@ body {
 
 .btn_primary {
     color: #FFF;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 20px 40px;
+    padding: 20px 38px;
     border-radius: 48px;
     border: none;
     cursor: pointer;
@@ -88,19 +88,10 @@ header {
     font-weight: 500;
     line-height: normal;
     cursor: pointer;
-
 }
-
 /* Header section end */
 
 /* Banner section start */
-/* .banner_section {
-    background-image: url('/images/Group 14.png');
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: 660px 100%;
-} */
-
 .banner_container {
     display: flex;
     max-width: 1140px;
@@ -170,7 +161,6 @@ header {
     height: 100%;
     margin-bottom: -5px;
 }
-
 /* Banner section end */
 
 /* Gamer section start */
@@ -241,7 +231,6 @@ header {
     font-size: 32px;
     font-weight: 700;
 }
-
 /* Gamer section end */
 
 /* Funny game section start */
