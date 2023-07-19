@@ -41,7 +41,6 @@ header {
 .logo_container {
     display: flex;
     align-items: center;
-    /* width: 50%; */
 
 }
 
@@ -95,22 +94,21 @@ header {
 /* Header section end */
 
 /* Banner section start */
-.banner_section {
+/* .banner_section {
     background-image: url('/images/Group 14.png');
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 660px 100%;
-}
+} */
 
 .banner_container {
     display: flex;
-    justify-content: space-between;
     max-width: 1140px;
     margin: 0 auto;
     gap: 30px;
     align-items: center;
+    justify-content: space-between;
 }
-
 
 .banner_text_container .banner_heading {
     color: #0B0223;
@@ -246,28 +244,255 @@ header {
 
 /* Gamer section end */
 
+/* Funny game section start */
+.funny_game_container {
+    max-width: 1140px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.funny_game_container .funny_game_heading {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
 
 
+.funny_game_container .funny_text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.funny_game_container .funny_game_description {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 15px 0 25px;
+}
+
+.game_card_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.game_card_container .game_card img {
+    width: 100%;
+}
+
+.game_card_container p {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 15px;
+}
+
+/* Funny game section end */
+
+/* Play instant section start */
+.play_instantly_section {
+    max-width: 1140px;
+    margin: 80px auto;
+}
+
+.play_instantly_container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.play_instantly_text {
+    width: 50%;
+}
+
+.play_instantly_image {
+    width: 50%;
+}
+
+.play_instantly_image .play_first_img {
+    width: 100%;
+}
 
 
+.play_instantly_text {
+    text-align: right;
+    margin-right: 120px;
+}
 
+.play_instantly_text .Play_instantly_heading {
+    font-size: 48px;
+    font-weight: 700;
+}
 
+.play_instantly_text .Play_instantly {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
+.play_instantly_text .Play_instantly_description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 
+.play_instantly_image .img {
+    position: relative;
+}
 
+.play_second_img {
+    position: absolute;
+    top: 50%;
+    left: -25%;
+}
 
+/* Play instant section end */
 
+/* <!-- more game section start --> */
+.more_games_section {
+    max-width: 1140px;
+    margin: 170px auto 0;
+}
 
+.game_menus_one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+}
 
+.game_menus_two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    background: #FFF;
+}
 
+.game_list {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    margin-top: 20px;
+    padding: 10px;
+}
 
+.game_list p {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
 
-/* hover effect */
+.game_list:hover {
+    color: #F948B2;
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+}
+
 .menus_btn:hover {
     color: #fff;
     background-color: #FF42A5;
     transition: 0.5s;
 }
+
+/* <!-- more game section end --> */
+
+
+/* footer section start */
+.footer_section {
+    background-color: #0B0223;
+    margin-top: 70px;
+}
+
+.footer_container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 100px;
+}
+
+.footer_logo .logo_text {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer_logo span {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer_container .footer_menus {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.footer_container .footer_menus a {
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social_media_icon {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 20px 0;
+}
+
+.social_media_icon i {
+    color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.terms_and_condition {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 30px 0;
+}
+
+.terms_and_condition a {
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 70px;
+}
+
+/* footer section end */
+
+
+
+
+
+
+
+
 
 
 /* hover effect */
@@ -284,4 +509,4 @@ header {
     font-size: 30px;
 }
 
-/* Header section end */
+/* hover effect */
