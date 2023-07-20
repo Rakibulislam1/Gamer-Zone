@@ -426,12 +426,6 @@ header {
     border-radius: 50px;
 }
 
-.menus_btn:hover {
-    color: #fff;
-    background-color: #FF42A5;
-    transition: 0.5s;
-}
-
 /* <!-- more game section end --> */
 
 
@@ -524,6 +518,12 @@ header {
 
 
 /* hover effect */
+
+.menus_btn:hover {
+    color: #fff;
+    background-color: #FF42A5;
+    transition: 0.5s;
+}
 
 .menus_btn .facebook {
     color: #F61C0D;
