@@ -49,12 +49,16 @@
     /* Gamer section end */
 
 
+    /* Funny game section start */
     .funny_game_container{
         margin: 30px 20px;
     }
     .game_card_container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* Funny game section end */
+
 
     /* Play instantly section start */
     .play_instantly_container {
@@ -175,6 +179,8 @@
     }
     /* Gamer section end */
 
+    /* Funny game section start */
+    
     .funny_game_container{
         margin: 30px 20px;
     }
@@ -183,6 +189,7 @@
         grid-template-columns: 1fr;
     }
 
+    /* Funny game section end */
 
     /* Play instantly section start */
     .play_instantly_container {

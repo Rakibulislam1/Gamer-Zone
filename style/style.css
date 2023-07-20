@@ -233,6 +233,7 @@ header {
 }
 /* Gamer section end */
 
+
 /* Funny game section start */
 .funny_game_container {
     max-width: 1240px;
@@ -267,7 +268,7 @@ header {
     gap: 20px;
 }
 
-.game_card_container .game_card img {
+.game_card_container .game_image img {
     width: 100%;
 }
 
@@ -279,7 +280,46 @@ header {
     margin-top: 15px;
 }
 
+/* *********************** */
+
+.game_card_container .game_image{
+    position: relative;
+}
+
+.game_card_container .game_play_icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.74);
+    font-size: 3rem;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #F948B2;
+    border-radius: 12px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.game_card_container .game_play_icon i{
+    margin-top: 45%;
+}
+.game_card_container .game_play_icon p{
+    text-align: center;
+    color: #FF42A5;
+    font-size: 1rem;
+}
+
+.game_card_container .game_play_icon:hover{
+    opacity: 1;
+}
+
+/* *********************** */
+
 /* Funny game section end */
+
+
 
 /* Play instant section start */
 .play_instantly_section {
